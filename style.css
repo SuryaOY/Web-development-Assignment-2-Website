@@ -1,4 +1,5 @@
-header{  
+header{ 
+background-image:url(https://wallpapercave.com/wp/wp6731746.jpg);  
 width:100%; 
 height:100%; 
 background-size:cover; 
@@ -9,6 +10,10 @@ ul{
 float:left; 
 list-style-type:none; 
 margin:25px; 
+} 
+
+ul li{ 
+display:inline-block; 
 } 
 
 ul li a{ 
@@ -23,9 +28,39 @@ border-radius:25px;
 font-size:25px; 
 } 
 
+u li a:hover{  
+background-color:green;  
+color:black;  
+}  
+
+.logo img{ 
+float:right; 
+width:250px; 
+height:auto; 
+margin-top:-80px; 
+margin-right:20px; 
+} 
+
 .title{ 
 position:absolute; 
 top:50%; 
 left:25%; 
 transform:translate(-50% -50%); 
 } 
+
+.title h1{  
+border-top-right-radius:50px;  
+border-bottom-left-radius:50px;  
+color:green;  
+border:5px whitesmoke;  
+border-bottom-style:dotted;  
+border-right-style:dotted;  
+border-right-color:yellow;  
+border-bottom-color:yellow;    
+border-top-style:dotted;      
+border-left-style:dotted;  
+font-size:70px;  
+padding:20px;  
+font-weight:bold;  
+text-shadow:white 5px;      
+}  
