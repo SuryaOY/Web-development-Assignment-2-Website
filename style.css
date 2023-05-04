@@ -1,72 +1,90 @@
 *{
     margin:0;
     padding:0;
-    font-family:'Sniglet',cursive;
 }
 
-header{ 
-background-image:url(MW2.jpg); 
-width:100%; 
-height:100vh;
-background-size:cover;  
-background-position:center; 
-} 
+.container {
+    width:100%;
+    height:100vh;
+    background-image:url(mw2.jpg);
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    padding-left:8%;
+    padding-right:8%;
+    box-sizing:border-box;
+}
 
-ul{ 
-float:left; 
-list-style-type:none; 
-margin:25px; 
-} 
+.header{
+    height:15%;
+    display:flex;
+    align-items:center;
+    overflow:hidden;
+    position:relative;
+}
 
-ul li{ 
-display:inline-block; 
-} 
+.MW2logo{
+    width:200px;
+    cursor:pointer;
+}
 
-ul li a{ 
-text-decoration:none; 
-color:white; 
-border:1px solid transparent; 
-padding:5px 20px; 
-font-weight:bold; 
-text-transform:uppercase; 
-transition:0.5s ease; 
-border-radius:25px; 
-font-size:25px; 
-} 
+.navbar{
+    text-align:center;
+    flex:1;
+}
 
-u li a:hover{  
-background-color:green;  
-color:black;  
-}  
+.navbar a{
+    padding:6px 20px;
+    text-decoration:none;
+    color:rgb(107, 228, 9);
+    margin-left:20px;
+    font-size:50px;
+    font-weight:bold;
+    display:block;
+    border:2px solid #bfc221;
+}
 
-.logo img{ 
-float:right; 
-width:250px; 
-height:auto; 
-margin-top:-80px; 
-margin-right:20px; 
-} 
+.navbar li{
+    display:inline-block;
+}
 
-.title{ 
-position:absolute; 
-top:50%; 
-left:25%; 
-transform:translate(-50% -50%); 
-} 
+.btn{
+    cursor:pointer;
+    color:white;
+    font-size:18px;
+    letter-spacing:2px;
+    padding:10px 30px;
+    border:2px solid #bfc221;
+    background:transparent;
+    text-decoration:none;
+    text-align:center;
+    font-weight:bold;
+    margin:40px 8px;
+}
 
-.title h1{  
-border-top-right-radius:50px;  
-border-bottom-left-radius:50px;  
-color:white;  
-border:5px whitesmoke;  
-border-bottom-style:dotted;  
-border-right-style:dotted;  
-border-right-color:rgb(129, 129, 4);   
-border-bottom-color:rgb(129, 129, 4);    
-border-top-style:dotted;      
-border-left-style:dotted;  
-font-size:70px;  
-padding:20px;  
-font-weight:bold;  
-text-shadow:white 5px;      
-}  
+.btn hover{
+    color:#000;
+    background-color:#fff;
+}
+
+.btn a:visited{
+    background-color:#fff;
+    color:white;
+}
+
+.btn a:link{
+    text-decoration:none;
+}
+
+.content{
+    text-align:center;
+    margin-top:12%;
+    text-decoration:none;
+}
+
+.content h1{
+    font-size:80px;
+    font-family:'Goudy Old Style';
+    color: rgb(107, 228, 9);
+    text-decoration:none;
+}
