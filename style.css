@@ -63,7 +63,7 @@
 }
 
 .btn hover{
-    color:#000;
+    color:#0fe61a;
     background-color:#fff;
 }
 
@@ -87,4 +87,43 @@
     font-family:'Goudy Old Style';
     color: rgb(107, 228, 9);
     text-decoration:none;
+}
+
+h2{
+    text-align:center;
+    font-size:40px;
+    margin:30px;
+    border:2px solid #2be01b;
+    background-color:yellow;
+}
+
+main {
+    width:1000px;
+    float:left;
+}
+
+p{
+    width:1000px;
+    font-size:35px;
+}
+
+aside{
+    float:left;
+    width:100px;
+    height:100px;
+    padding:0px;
+    margin:0px;
+}
+
+.gameplay{
+    height:300px;
+    float:left;
+}
+
+h3{
+    text-align:center;
+    font-size:40px;
+    margin:30px;
+    border:2px solid #2be01b;
+    background-color:yellow;
 }
