@@ -98,8 +98,11 @@ h2{
 }
 
 main {
-    width:1000px;
     float:left;
+}
+
+#about-section {
+    display: flex;
 }
 
 p{
