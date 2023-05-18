@@ -3,14 +3,18 @@
     padding:0;
 }
 
+html{
+    scroll-behavior: smooth;        /*The scroll behaviour will allow the website to scroll down to the navbar page that is clicked on slowly instead of it going fast.*/
+}
+
 .container {
     width:100%;
     height:100vh;
-    background-image:url(mw2.jpg);
-    background-size:cover;
+    background-image:url(mw2.jpg);              /*The background image for my home page will be an image that I have saved.*/
+    background-size:cover;                          /*This will cover the page with image url.*/
     background-position:center;
     background-repeat:no-repeat;
-    padding-left:8%;
+    padding-left:8%;                        /*This will allow space on the left and right side on home page image*/
     padding-right:8%;
     box-sizing:border-box;
 }
@@ -18,7 +22,7 @@
 .header{
     height:15%;
     display:flex;
-    align-items:center;
+    align-items:center;                     
     overflow:hidden;
     position:relative;
 }
