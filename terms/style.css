@@ -1,11 +1,11 @@
 body{ 
-    margin:0; 
-    padding:0; 
+    margin:0;                           /*Margin creates the space around an element.*/
+    padding:0;                               /*Creates space around an element's content.*/
     min-height:100vh; 
-    justify-content:center; 
+    justify-content:center;                             /*This will justify how much space will around the content and the main axis of a container.*/
     align-items:center; 
-    display:flex; 
-    background:url(soap.jpg); 
+    display:flex;                                    /*This will position the elements in the header towards the left.*/
+    background:url(soap.jpg);                   /*The background URL will be the image saved on to my system and appear on the website.*/
 } 
 
 .terms{ 
@@ -21,7 +21,7 @@ body{
     color:white; 
     font-size:14px; 
     font-weight:500; 
-    overflow-y:auto; 
+    overflow-y:auto;                    /*This will show if you want to add other features like a scrollbar.*/
 } 
 
 .terms-text::-webkit-scrollbar{ 
@@ -30,7 +30,7 @@ body{
 } 
 
 .terms-text h2{ 
-    text-transform:uppercase; 
+    text-transform:uppercase;               /*This will transform the text into uppercases.*/
 } 
 
 .terms h3{ 
@@ -44,7 +44,7 @@ body{
 } 
 
 .buttons{ 
-    display:flex; 
+    display:flex;                            /*This will position the elements in the header towards the left.*/
     padding:0 20px; 
     justify-content:space-between; 
 } 
@@ -56,7 +56,7 @@ body{
     height:50px; 
     width:calc(50%-6px); 
     border:0; 
-    border-radius:6px; 
+    border-radius:6px;                           /*The border radius will round the corners of the border edges.*/
     cursor:pointer; 
     transition:.3s linear; 
 } 
@@ -70,5 +70,5 @@ body{
 } 
 
 .btn:hover{ 
-    opacity:.6; 
+    opacity:.6;                                     /*This sets the transparency of an element.*/
 } 
