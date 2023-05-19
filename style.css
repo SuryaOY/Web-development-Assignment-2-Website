@@ -1,6 +1,6 @@
 *{
-    margin:0;
-    padding:0;
+    margin:0;               /*Margin creates the space around an element.*/
+    padding:0;                  
 }
 
 html{
@@ -16,20 +16,20 @@ html{
     background-repeat:no-repeat;
     padding-left:8%;                        /*This will allow space on the left and right side on home page image*/
     padding-right:8%;
-    box-sizing:border-box;
+    box-sizing:border-box;                  
 }
 
 .header{
     height:15%;
-    display:flex;
-    align-items:center;                     
-    overflow:hidden;
-    position:relative;
+    display:flex;                       /*This will position the elements in the header towards the left.*/
+    align-items:center;                     /*The elements will be postioned to the center*/
+    overflow:hidden;                        /*There will be no overflowing in the content since it's hidden.*/
+    position:relative;                  /*The position of the elements in the header will be in their normal position.*/
 }
 
 .MW2logo{
     width:200px;
-    cursor:pointer;
+    cursor:pointer;                 /*This indicates a link*/
 }
 
 .navbar{
@@ -39,17 +39,17 @@ html{
 
 .navbar a{
     padding:6px 20px;
-    text-decoration:none;
+    text-decoration:none;                           /*No text will be customised e.g bold font or underline.*/
     color:rgb(107, 228, 9);
     margin-left:20px;
     font-size:50px;
     font-weight:bold;
-    display:block;
+    display:block;                          /*This represents a block element.*/
     border:2px solid #bfc221;
 }
 
 .navbar li{
-    display:inline-block;
+    display:inline-block;               /*This is similar to block but with and heigh can be adjusted.*/
 }
 
 .btn{
@@ -102,11 +102,11 @@ h2{
 }
 
 main {
-    float:left;
+    float:left;             /*The main section will be positioned to the left.*/
 }
 
 #about-section {
-    display: flex;
+    display:flex;
 }
 
 p{
