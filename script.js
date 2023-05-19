@@ -1,0 +1,1 @@
+const toTop = () => window.scrollTo({top:0, behaviour: 'smooth'}) //This is for the button that the user can click on to scroll to the top page when they reach for the bottom.
