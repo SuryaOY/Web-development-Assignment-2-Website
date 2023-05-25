@@ -88,7 +88,7 @@ html{
 
 .content h1{
     font-size:80px;
-    font-family:'Goudy Old Style';
+    font-family:'Goudy Old Style';              /*This is a type of font.*/
     color: rgb(107, 228, 9);
     text-decoration:none;
 }
