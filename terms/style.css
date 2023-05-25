@@ -30,7 +30,8 @@ body{
 } 
 
 .terms-text h2{ 
-    text-transform:uppercase;               /*This will transform the text into uppercases.*/
+    text-transform:uppercase;                   /*This will transform the text into uppercases.*/
+    font-family:'Goudy Old Style';               /*This is a type of font.*/
 } 
 
 .terms h3{ 
